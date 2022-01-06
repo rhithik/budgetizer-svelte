@@ -1,5 +1,11 @@
 <script>
 	import '../app.css';
+	import Footer from '../components/Footer.svelte';
+	import Nav from '../components/Nav.svelte';
 </script>
 
-<slot />
+<Nav />
+<div class="container mx-auto">
+	<slot />
+</div>
+<Footer />
